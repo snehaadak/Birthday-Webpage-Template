@@ -1,15 +1,15 @@
 import React from "react";
-import birthdayVideo from "../utils/birthday-video.mp4";
+import birthdayvideo from '../utils/birthday-video.mp4';
 
 export default function VideoContainer() {
   return (
-    <div className="w-full max-w-sm mx-auto aspect-[9/16] rounded-2xl overflow-hidden shadow-lg">
+    <div className="w-full aspect-video rounded-2xl overflow-hidden shadow-lg">
       <video
-        src={birthdayVideo}
-        controls
+        src={birthdayvideo} 
         autoPlay
         muted
         loop
+        playsInline
         className="w-full h-full object-cover"
       />
     </div>
