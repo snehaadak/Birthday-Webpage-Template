@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const cards = [
-  { id: 1, text: "🎉 Happy Birthday Bacche❤️" },
-  { id: 2, text: "How does it feel to be the most handsome birthday boy today?" },
-  { id: 3, text: "How did I get so blessed to call you mine?" },
-  { id: 4, text: "You make me Happy and Horny!🙈" },
+  { id: 1, text: "🎉 Happy Birthday❤️" },
+  { id: 2, text: "Card 1" },
+  { id: 3, text: "Card 2" },
+  { id: 4, text: "Card 3" },
 ];
 
 export default function CardSlider() {
